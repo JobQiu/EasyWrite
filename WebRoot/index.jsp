@@ -8,7 +8,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
   <head>
     <base href="<%=basePath%>">
-
     <title>My JSP 'index.jsp' starting page</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,8 +22,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   index this is a test.
   <br>
-    do we need to re doploy the project?
-
+    do we need to re doploy the delete something ject?
+    what if i modify some parts here?
     This is my JSP page. <br>
   </body>
 </html>
