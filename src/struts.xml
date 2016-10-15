@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<!-- 常量配置 -->
+<constant name="struts.i18n.encoding" value="UTF-8" />
+<package name="account" namespace="/" extends="struts-default">
+	<action name="login" class="com.qcm.controller.account.LoginAction" >
+		<result name="success">/success.jsp</result>
+		<result name="fail">/login.jsp</result>
+	</action>
+	<action name="register" class="com.qcm.controller.account.RegisterAction" method="loadData" >
+		<result name="success">/register.jsp</result>
+	</action>
+	<action name="registerSubmit" class="com.qcm.controller.account.RegisterAction" method="submit" >
+		<result name="success">/index.jsp</result>
+	</action>
+</package>
+
+</struts>
