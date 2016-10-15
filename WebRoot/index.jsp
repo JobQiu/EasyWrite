@@ -22,6 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   index this is a test.
   <br>
+    why they are so noisy
     do we need to re doploy the delete something ject?
     what if i modify some parts here?
     This is my JSP page. <br>
