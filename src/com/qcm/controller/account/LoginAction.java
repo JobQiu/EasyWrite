@@ -16,7 +16,7 @@ public class LoginAction extends ActionSupport {
 		System.out.println(user.getName());
 		System.out.println(user.getPwd());
 		if (true) {
-		message = "登陆成功！";
+			message = "登陆成功！";
 		return SUCCESS;
 		} else {
 			message = "密码错误或用户名不存在！";
